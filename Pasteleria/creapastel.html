@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Css\estilos.css">
+    <link rel="stylesheet" type="text/css" href="Css\formulario.css">
+    <link rel="shortcut icon" type="imagen/jpg" href="Imagenes\chocolare.jpg"/>
+    <title>Quienes somos</title>
+</head>
+<body>
+    <header>
+        <nav class="principio">
+            <div class="logo">Pastelería Dulce Capricho</div>
+            <ul class="menu">
+                <li> <a href="index.html">Inicio <a/> </li>
+                    <li> <a href="pasteles.html">Pasteles<a/> </li>
+                    <li> <a href="creapastel.html">Crea tu Pastel </a> </li>
+                    <li> <a href="ubicacion.html">Ubicacion Y Contacto</a></li>
+                    <li> <a href="micuenta.html">Mi cuenta </a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Realiza tu pedido aqui!</h1>
+    <h2>Pastel Grande $600Mx</h2>
+    <h2>Pastel Mediano $350Mx</h2>
+    <h2>Pastel Chico $150Mx</h2>
+    <h2>Ingrediente adicional + $80Mx C/U</h2>
+    <form class="login">
+        <P class="control">
+        <label class="1" for="nombre">Nombre: </label>
+        <input type="text" id="nombre" placeholder="Nombre"><BR>
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido" placeholder="Apellido"><BR>
+        <label for="email">Correo: </label>
+        <input type="text" id="email" placeholder="alguien@correo.com"><BR>
+        <label for="numero">Numero de Personas:</label>    
+        <input type="number" id="numero"><br> 
+        <label for="cantidad">Pasteles Disponibles:</label> 
+        <select name="pasteles">
+            <option>Tres Leches</option>
+            <option>Imposible</option>
+            <option>Chocolate</option>
+            <option>Fresa</option>
+            <option>Vainilla</option>
+            <option>Cajeta</option>
+            <option>Coco</option>
+            <option>Zanahoria</option>
+            <option>Mazapan</option>
+        </select><br>
+        <label for="tamaño">Tamaño del Pastel </label><br>
+        <input type="radio" name="tamaño" value="Grande"> Grande<br>
+        <input type="radio" name="tamaño" value="Chico"> Mediano <br>
+        <input type="radio" name="tamaño" value="Chico"> Chico <br>
+        <label for="extra" name="extra" value="extra">Ingrediente adicional (Dulces) </label><br>
+        <input type="checkbox" id="cbox1" value="primer_checkbox"> Chispas</label><br>
+        <input type="checkbox" id="cbox2" value="second_checkbox"> Lunetas</label> <br>
+        <input type="checkbox" id="cbox1" value="primer_checkbox"> chocoretas</label><br>
+        <input type="checkbox" id="cbox2" value="second_checkbox"> Chocolate Extra</label> <br>
+        <input type="checkbox" id="cbox1" value="primer_checkbox"> Crema Pastelera</label><br>
+        <input type="checkbox" id="cbox2" value="second_checkbox"> Nuez</label> <br>
+        <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea><br>
+        <input class="boton" type="submit" value="Enviar"> <INPUT type="reset">
+        </P>
+    </form>
+    <p class="puno">Pasteleria Dulce capricho desde su inicios se combirtio en una de las 
+        pastelerias mas predilectas de todo el Estado de Mexico por su delicioso
+        y clasico pastel de chocolate.
+    </p>
+    <script src="Js\1.js"></script>
+</body>
+</html>
